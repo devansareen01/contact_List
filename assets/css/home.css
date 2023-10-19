@@ -1,0 +1,55 @@
+* {
+    font-family: helvetica;
+
+}
+
+body {
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.contact {
+    display: flex;
+    padding: 3px 10px;
+    color: white;
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px 1px lightgray;
+    padding: 5px;
+    background-color: rgba(44, 44, 206, 0.714);
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.delete-button {
+    width: 10%;
+    height: 2vh;
+    padding: 3px;
+    align-items: center;
+    margin-top: 5px;
+}
+
+a {
+    color: white;
+    background-color: red;
+}
+
+p {
+    display: inline-block;
+    text-decoration: solid;
+}
+
+li {
+    list-style: none;
+}
